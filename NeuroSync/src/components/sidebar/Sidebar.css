@@ -1,0 +1,41 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    height: 100vh;
+   padding: 25px 15px;
+   font-family: Outfit;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar img{
+    width: 20px;
+
+}
+
+.sidebar .menu{
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sidebar .new-chat{
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap:10px;
+    border: 0px solid black;
+    border-radius: 50px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+}
+.sidebar .new-chat-title{
+}
+
