@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 .sidebar{
     display: flex;
     flex-direction: column;
@@ -6,6 +8,9 @@
     height: 100vh;
    padding: 25px 15px;
    font-family: Outfit;
+    width: 300px; /* Default width */
+    transition: all 0.3s ease;
+    overflow: hidden;
 }
 .top{
     display: flex;
@@ -14,7 +19,6 @@
 
 .sidebar img{
     width: 20px;
-
 }
 
 .sidebar .menu{
@@ -24,11 +28,10 @@
 }
 
 .sidebar .new-chat{
-    margin-top: 10px;
+    margin-top: 50px;
     display: inline-flex;
     align-items: center;
     gap:10px;
-    border: 0px solid black;
     border-radius: 50px;
     padding: 10px 15px;
     background-color: #e6eaf1;
@@ -37,3 +40,46 @@
     cursor: pointer;
 }
 
+.sidebar .recent{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .recent-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.sidebar .recent-entry{
+    display: flex;
+    align-items: center ;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #282828;
+    cursor: pointer;
+}
+
+.sidebar .recent-entry:hover{
+background-color: #e2e6eb;
+
+}
+
+.sidebar .bottom{
+    display: flex;
+    flex-direction: column;  
+    transition: all 0.3s ease;
+}
+
+.sidebar .bottom-item{
+    padding-right:10px ;
+    cursor: pointer;
+}
+/* Transition effect */
+.sidebar-collapsed {
+    width: 80px /* Adjust based on how much you want to show */
+}
+.sidebar-extended {
+    width: 240px;
+}
