@@ -5,12 +5,13 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #f0f4f9;
-    height: 100vh;
-   padding: 25px 15px;
-   font-family: Outfit;
-    width: 300px; /* Default width */
+    min-height: 100vh;
+    padding: 25px 15px;
+    font-family: Outfit;
+    width: 300px; 
     transition: all 0.3s ease;
     overflow: hidden;
+    bottom: 0;
 }
 .top{
     display: flex;

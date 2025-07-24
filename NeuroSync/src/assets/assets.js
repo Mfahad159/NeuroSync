@@ -13,8 +13,11 @@ import message_icon from './message_icon.png'
 import code_icon from './code_icon.png'
 import send_icon from './send_icon.png'
 import gemini_icon from './gemini_icon.png'
-
+import Neuro_Icon from './NeuroSync.jpg'
+import Gemini_icon_2 from './Gemini_icon_2.png'
 export const assets = {
+    Gemini_icon_2,
+    Neuro_Icon,
     history_icon,
     menu_icon,
     plus_icon,
